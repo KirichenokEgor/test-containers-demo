@@ -1,0 +1,35 @@
+POST http://localhost:8080/MyItem
+Content-Type: application/json
+
+{
+  "name": "name1",
+  "number": 123
+}
+
+###
+
+PUT http://localhost:8080/MyItem/1
+Content-Type: application/json
+
+{
+  "name": "name2",
+  "number": 234
+}
+
+###
+
+
+GET http://localhost:8080/MyItem/1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/MyItem/1/prepare-for-closing
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/MyItem/1/close
+Content-Type: application/json
+
+###
